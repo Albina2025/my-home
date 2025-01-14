@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+position: relative;
+width: 1440px;
+height: 7082px;
+border: 1px solid black;
+margin: 0 auto;
+}
+
+.girl img{
+width: 1340px;
+height: 800px;
+/* margin: 0 auto; */
+padding-left: 90px;
+}
+/* ---------------------------------star------------------------------------------------ */
+.star img{
+    /* Frame */
+position: absolute;
+width: 350px;
+height: 27px;
+left: 195px;
+top: 120px;
+}
+.text{
+position: absolute;
+width: 228px;
+height: 64px;
+left: 285px;
+top: 154px;
+}
+.text p{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+.google img{
+
+position: absolute;
+width: 500px;
+height: 32px;
+
+top: 70px;
+right: -39px;
+}
+/* --------------------------------------------------- */
+.starone img{
+    /* Frame */
+position: absolute;
+width: 350px;
+height: 27px;
+right: -30px;
+top: 130px;
+}
+.onetext{
+position: absolute;
+width: 264px;
+height: 64px;
+left: -10px;
+top: 153.69px;
+}
+.onetext p {
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+.wayfair img{
+/* Rectangle */
+position: absolute;
+width: 500px;
+height: 42px;
+left: -230px;
+top: 70.69px;
+}
+.startwo img{
+/* Frame */
+position: absolute;
+width: 350px;
+height: 27px;
+left: -80px;
+top: 140px;
+}
+.twotext{
+    /* “Our booths are in constant use.” */
+position: absolute;
+width: 201px;
+height: 64px;
+left: -10px;
+top: 170.23px;
+}
+.twotext p{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.flexport img{
+/* Rectangle */
+position: absolute;
+/* width: 100px; */
+height: 22px;
+left: -150px;
+top: 76.23px;
+}
+.read{
+    /* READ MORE REVIEWS */
+position: absolute;
+width: 184px;
+height: 12px;
+left: 10px;
+top: 209px;
+}
+.read p{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0.75px;
+text-align: left;
+text-transform: uppercase;
+}
+/* ------------------------------------------------------- */
+.human{
+/* We take a human approach to a business-to-business industry, breaking the boundaries between corporate and personal, and rethinking every step of the user experience along the way. */
+position: absolute;
+width: 882px;
+height: 260px;
+left: 300px;
+top: 1040px;
+
+}
+.human p{
+
+color: rgb(170, 170, 170);
+font-family: Roboto;
+font-size: 46px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: 0%;
+text-align: left;
+}
+.work{
+   /* We make work, work for you. */
+position: absolute;
+width: 861px;
+height: 52px;
+left: 296px;
+top: 1325px; 
+}
+.work h6{
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* ------------------------------------------ */
+.people img{
+width: 671px;
+height: 672px;
+margin-top: 750px;
+margin-left: 50px;
+}
+
+.left {
+position: absolute;
+left: 820px;
+/* bottom: 9100px; */
+bottom: 5200px;
+}
+.left h3{
+    margin-bottom: 15px;
+color: rgb(26, 26, 26);
+font-family: Roboto;
+font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.left p{
+    color: rgb(170, 170, 170);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+width: 311px;
+height: 96px;
+}
+
+.left2{
+    position: absolute;
+    top: 2500px;
+    left: 200px;
+}
+.left2 h3{
+color: rgb(26, 26, 26);
+font-family: Roboto;
+font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.left2 p {
+width: 298px;
+height: 72px;
+color: rgb(170, 170, 170);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.people1{
+/* Rectangle */
+position: absolute;
+left: 600px;
+top: 2300px;
+}
+.course img{
+width: 671px;
+height: 672px;
+}
+
+.people2{
+    /* Rectangle */
+    position: absolute;
+    left: 50px;
+    top: 3050px;
+    }
+.left3 {
+    position: absolute;
+    top: 3400px;
+    left: 800px;
+}
+.left3 h3{
+    color: rgb(26, 26, 26);
+font-family: Roboto;
+font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.left3 p {
+    color: rgb(170, 170, 170);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+width: 309px;
+height: 144px;
+}
+.container img{
+    /* Rectangle */
+position: absolute;
+width: 1344px;
+height: 700px;
+right: 48px;
+top: 4000px;
+background-image: url(./image6.png);
+}
+/* --------------------------------------------------------------------------------- */
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 134px; /* Расстояние между элементами */
+    position: absolute;
+width: 1200px;
+height: 465px;
+left: 120px;
+top: 5000px;
+border-radius: 2px;
+background: rgb(242, 242, 242);
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column; /* Элементы располагаются вертикально */
+    align-items: center; /* Центрируем иконку и текст по горизонтали */
+    text-align: center;
+    padding-top: 179px;
+  }
+  
+  .feature img {
+margin-bottom: 20px; /* Расстояние между иконкой и текстом */
+width: 64px;
+height: 64px;
+left: 67.67px;
+top: 203px;
+
+  }
+  
+  .feature p {
+    color: rgb(26, 26, 26);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+
+  .box h3{
+    color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 46px;
+font-weight: 400;
+line-height: 50.6px;
+text-align: center;
+width: 446px;
+height: 51px;
+left: 377px;
+top: 63px ;
+position: absolute;
+}
+  
+.box button {
+position: absolute;
+width: 146px;
+height: 50px;
+left: 527px;
+top: 320px;
+border-radius: 2px;
+border: none;
+background: rgb(70, 133, 110);
+color: rgb(255, 255, 255);
+font-family: Roboto;
+
+}
+.box h5{
+    color: rgb(170, 170, 170);
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: left;
+/* Terms & Conditions */
+position: absolute;
+width: 137px;
+height: 14px;
+left: 531px;
+top: 425px;
+}
+/* ---------------------footer---------------------------------- */
+.footer{
+    box-shadow: 0px 400px 0px 0px rgb(43, 43, 43);
+background: rgb(43, 43, 43);
+width: 1440px;
+height: 419px;
+position: absolute;
+left: 799.9px;
+top: 5600px;
+}
+.about{
+    margin-left: 331px;
+    margin-top: -92px;
+    margin-bottom: 19px;
+}
+.about p{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+.rich{
+width: 87px;
+height: 87px;
+margin-left: 175px;
+margin-top: 97px;
+}
+.compare{
+width: 97px;
+height: 76px;
+margin-left: 331px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.compare p{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+
+
+.support{
+    margin-left: 501px;
+    margin-top: -113px;
+    margin-bottom: 19px;
+}
+.support p{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+.compare1{
+margin-left: 501px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+width: 140px;
+height: 160px;
+}
+.compare1 p{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+
+
+.showrooms{
+    margin-left: 331px;
+    margin-top: 40px;
+    margin-bottom: 19px;
+}
+.showrooms p{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+.compare2{
+margin-left: 331px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+width: 140px;
+height: 160px;
+}
+.compare2 p{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+
+.about{
+    margin-left: 331px;
+    margin-top: -92px;
+    margin-bottom: 19px;
+}
+.about p{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+.rich{
+width: 87px;
+height: 87px;
+margin-left: 175px;
+margin-top: 97px;
+}
+.compare{
+width: 97px;
+height: 76px;
+margin-left: 331px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.compare p{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+
+
+.office{
+    margin-left: 501px;
+    margin-top: -196px;
+    margin-bottom: 19px;
+}
+.office p{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+.compare3{
+margin-left: 501px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+width: 140px;
+height: 160px;
+
+}
+.compare3 p{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+/* -------------------------follow */
+.follow{
+    margin-left: 720px;
+    margin-top: -430px;
+}
+
+
+
+.follow p{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+.compare4{
+    display: flex;
+    gap: 13px;
+    flex-direction: row;
+    margin-left: 720px;
+    margin-top: 17px;
+}
+
+.compare4 img{
+width: 20px;
+height: 20px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+.minitext{
+    margin-left: 938px;
+    margin-top: -60px;
+}
+.minitext p{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+.minitext2 p{
+ color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+}
+.minitext2{
+    margin-left: 938px;
+    margin-top: 17px;
+}
+.block{
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.4);
+border-radius: 3px;
+width: 327px;
+height: 54px;
+margin-left: 938px;
+margin-top: 30px;
+}
+.id {
+    color: rgba(255, 255, 255, 0.5);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.square{
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.5);
+background: rgb(43, 43, 43);
+width: 28px;
+height: 26px;
+margin-left: 890px;
+margin-top: 85px;
+}
+
+.maxtext p{
+ color: rgba(255, 255, 255, 0.5);
+font-family: Roboto;
+font-size: 11px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 2.4px;
+text-align: left;
+text-transform: uppercase;
+width: 369px;
+height: 78px;
+}
+.maxtext{
+    margin-left: 938px;
+    margin-top: -25px;
+}
+
+.sign p{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 2.3px;
+text-align: right;
+text-transform: uppercase;
+margin-right: 169px;
+margin-top: 58px;
+}
+.return{
+color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 11px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 2.4px;
+text-align: left;
+text-transform: uppercase;
+transform: rotate(-90.00deg);
+margin-left: 1299px;
+width: 180px;
+height: 13px;
+margin-bottom: -20px;
+}
